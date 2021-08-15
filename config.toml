@@ -1,0 +1,41 @@
+baseURL = 'https://blog.appr.me/'
+languageCode = 'en-us'
+title = '~/blog'
+theme = "gokarna"
+enableRobotsTXT = true
+enableEmoji = true
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    url = "/posts/"
+    pre = ""
+    post = ""
+    name = "Posts"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "linkedin"
+    url = "https://www.linkedin.com/in/apprme"
+    weight = 2
+    pre = "<span data-feather='linkedin'></span>"
+
+  [[menu.main]]
+    identifier = "facebook"
+    url = "https://www.facebook.com/pavel.kakolin"
+    weight = 3
+    pre = "<span data-feather='facebook'></span>"
+
+  [[menu.main]]
+    identifier = "telegram"
+    url = "https://t.me/appr_me"
+    weight = 4
+    pre = "<span data-feather='send'></span>"
+
+[params]
+  avatarURL = "/images/userpic.jpg"
+  avatarSize = "size-xs"
+  description = ""
+  metaKeywords = []
+  showPostsOnHomePage = "recent"
+  footer = "appr"
