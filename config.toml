@@ -27,10 +27,22 @@ enableEmoji = true
     pre = "<span data-feather='facebook'></span>"
 
   [[menu.main]]
+    identifier = "instagram"
+    url = "https://instagram.com/appr"
+    weight = 4
+    pre = "<span data-feather='instagram'></span>"
+
+  [[menu.main]]
     identifier = "telegram"
     url = "https://t.me/appr_me"
     weight = 4
     pre = "<span data-feather='send'></span>"
+
+  [[menu.main]]
+    identifier = "strava"
+    url = "https://strava.com/athletes/7562844"
+    weight = 4
+    pre = "<img style='width: 20px; fill: currentColor; stroke: none;' class='svg-inject' src='/images/strava.svg' />"
 
 [params]
   avatarURL = "/images/userpic.jpg"
